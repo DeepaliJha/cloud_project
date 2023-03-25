@@ -903,7 +903,7 @@ label.valid:after {
   padding-top: 15px;
   border: solid 1px #e5e5e5;
   border-radius: 5px;
-  color: #0e8ce4;
+  color: #FC5185;
   outline: none;
   -webkit-transition: all 200ms ease;
   -moz-transition: all 200ms ease;
@@ -932,7 +932,7 @@ label.valid:after {
 
 .button {
   display: inline-block;
-  background: #97cbfa;
+  background: #FC5185;
   border-radius: 5px;
   height: 48px;
   -webkit-transition: all 200ms ease;
