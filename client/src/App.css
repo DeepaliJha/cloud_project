@@ -237,7 +237,7 @@ figure {
 
 .form-submit {
   display: inline-block;
-  background: #6dabe4;
+  background: #FC5185;
   color: #fff;
   border-bottom: none;
   width: auto;
@@ -252,7 +252,7 @@ figure {
 }
 
 .form-submit:hover {
-  background: #4292dc;
+  background: #f8789f;
 }
 
 #signin {
@@ -577,7 +577,7 @@ label.valid:after {
   color: #333;
 }
 .profile-head h6 {
-  color: #0062cc;
+  color: #FC5185;
 }
 .profile-edit-btn {
   border: none;
@@ -604,10 +604,11 @@ label.valid:after {
 .profile-head .nav-tabs .nav-link {
   font-weight: 600;
   border: none;
+  color: #FC5185;
 }
 .profile-head .nav-tabs .nav-link.active {
   border: none;
-  border-bottom: 2px solid #0062cc;
+  border-bottom: 2px solid #FC5185;
 }
 .profile-work {
   padding: 14%;
@@ -633,7 +634,7 @@ label.valid:after {
 }
 .profile-tab p {
   /* font-weight: 600; */
-  color: #0062cc;
+  color: #FC5185;
 }
 
 @media screen and (max-width: 1200px) {
@@ -746,7 +747,7 @@ label.valid:after {
 .home-page {
   /* width: 100vw; */
   height: 90vh;
-  background-image: linear-gradient(90deg, #ecf0ff 50%, #fff 50%);
+  background-image: linear-gradient(90deg, #ff6191 50%, #000 50%);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -768,6 +769,7 @@ label.valid:after {
   font-weight: 800;
   text-transform: capitalize;
   margin-bottom: 30px;
+  color: white;
 }
 
 .home-page .home-div h2 {

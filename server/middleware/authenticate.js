@@ -11,7 +11,7 @@ const Authenticate= async(req,res,next)=>{
       console.log(verifyToken._id)
       // const userExist = await User.findOne({ email: "grinknhvshdloo@gmail.com" });
       // console.log(userExist)
-      // const abc=await User.findOne({name:"deepali"});
+      // const abc=await User.findOne({name:"kshipra"});
       // console.log(abc)
       const rootUser=await User.findById(verifyToken._id)
       // const rootUser=await User.findOne({_id:verifyToken._id});
