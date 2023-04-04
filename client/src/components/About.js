@@ -1,5 +1,4 @@
 import React, {useEffect, useState}  from 'react'
-import thapapic from "../images/about.png";
 import aboutpic from "../images/about.png";
 
 // import { useHistory } from "react-router-dom";
@@ -49,7 +48,7 @@ const About = () => {
                     <div className="row">
                         <div className="col-md-4">
                             <div className="profile-img">
-                                  <img src={userData.name === "Deepali Jha" ? thapapic : aboutpic} alt="deepali" />
+                                  <img src={aboutpic} alt="aboutPic" />
                             </div>
                           
                         </div>
@@ -86,13 +85,13 @@ const About = () => {
                         <div className="col-md-4">
                             <div className="profile-work">
                                 <p> WORK LINK</p>
-                                <a href="https://www.youtube.com/channel/UCwfaAHy4zQUb2APNOGXUCCA" target="_thapa">Youtube</a> <br />
-                                <a href="https://www.youtube.com/channel/UCwfaAHy4zQUb2APNOGXUCCA" target="_thapa">Instagram</a> <br />
-                                <a href="https://www.youtube.com/channel/UCwfaAHy4zQUb2APNOGXUCCA" target="_thapa">Deepali Jha</a> <br />
-                                <a href="https://www.youtube.com/channel/UCwfaAHy4zQUb2APNOGXUCCA" target="_thapa">WebsiteGitHubMERN Dev</a> <br />
-                                <a href="https://www.youtube.com/channel/UCwfaAHy4zQUb2APNOGXUCCA" target="_thapa">Web Developer</a> <br />
-                                <a href="https://www.youtube.com/channel/UCwfaAHy4zQUb2APNOGXUCCA" target="_thapa">Figma</a> <br />
-                                <a href="https://www.youtube.com/channel/UCwfaAHy4zQUb2APNOGXUCCA" target="_thapa">Software Engeeneer</a> <br />
+                                <a>Youtube</a> <br />
+                                <a>Instagram</a> <br />
+                                <a>RVDK</a> <br />
+                                <a>WebsiteGitHubMERN Dev</a> <br />
+                                <a>Web Developer</a> <br />
+                                <a>Figma</a> <br />
+                                <a>Software Engeeneer</a> <br />
                                 
                                 
                             </div>
