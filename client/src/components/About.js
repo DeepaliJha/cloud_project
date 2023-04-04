@@ -84,16 +84,12 @@ const About = () => {
                         {/* left side url  */}
                         <div className="col-md-4">
                             <div className="profile-work">
-                                <p> WORK LINK</p>
-                                <a>Youtube</a> <br />
+                                <a>Software Engineer</a> <br />
                                 <a>Instagram</a> <br />
-                                <a>RVDK</a> <br />
-                                <a>WebsiteGitHubMERN Dev</a> <br />
+                                <a>Facebook</a> <br />
                                 <a>Web Developer</a> <br />
-                                <a>Figma</a> <br />
-                                <a>Software Engeeneer</a> <br />
-                                
-                                
+                                <a>Projects</a> <br />
+                                <a>RVDK</a> <br />
                             </div>
                         </div> 
 
